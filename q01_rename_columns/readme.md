@@ -1,13 +1,13 @@
-## Data Preprocessing
+# Data Preprocessing
 
 The data that we have is not clean. In the next couple of tasks, we will try to transform the data in a format that will make it easier to perform data operations.
 
     
-## 1. Renaming Columns
+## Renaming Columns
 
 The first task is to rename columns for better feature handling
 
-Write a function q01_rename_columns that :
+## Write a function 'q01_rename_columns' that :
     
     a)Reads CSV file and converts CSV data to dataframe.
     b)Skips first row.
@@ -27,5 +27,6 @@ Returns:
 | returns  | dtype            | description                                |
 |----------|------------------|--------------------------------------------|
 | variable | pandas.DataFrame | Dataframe with above operations inculcated |
+
 
 

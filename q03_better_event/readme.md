@@ -3,7 +3,7 @@ Some Countries love Summer, some Winter. We think it has to do something with th
 
 For this task we will try to figure out which olympic event does a country perform better in:
 
-Write a function q03_better_event that :
+## Write a function 'q03_better_event' that :
    
     a)Makes use of the dataframe created from the previous task.
     b)Creates a new column 'BetterEvent' that stores 'Summer','Winter' or 'Both' based on the comparision between the medals won  in Summer event and Winter event.

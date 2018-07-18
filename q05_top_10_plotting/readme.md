@@ -2,7 +2,7 @@
 
 ### From the lists that you have created from the above task, plot the medal count of the countries present for better visualisation
 
-Write a function q05_top_10_plotting() that:
+## Write a function 'q05_top_10_plotting()' that:
     
     a)takes the dataframe and the three above created lists(Top10Summer,Top10Winter, Top10) as parameters and subsets the dataframe based on the country names present in the list
     b)takes each subsetted dataframe and plots a bar graph between the country name and total medal count(according to the event)
