@@ -2,7 +2,7 @@
 
 The second task is to make changes to Country column
 
-## Write a function 'q02_country_operations' that    
+## Write a function `q02_country_operations` that    
    
     a)Makes use of the previously created dataframe from q01_rename_columns.
     b)Removes unnecessary characters from the column 'Country'.

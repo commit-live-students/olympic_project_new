@@ -7,7 +7,7 @@ So in this task we will try to find
 - Which are the top 10 performing teams at summer event (with respect to total medals), winter event and overall?
 - How many teams are present in all of the three lists above?
 
-## Write a function 'q04_find_top_10()' that:
+## Write a function `q04_find_top_10()` that:
 
     a)Makes use of the dataframe created from the previous task.
     b)Finds index of top 10 values of the three columns passed('Total_Summer', 'Total_Winter','Total') as parameters

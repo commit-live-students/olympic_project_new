@@ -7,7 +7,7 @@ The data that we have is not clean. In the next couple of tasks, we will try to 
 
 The first task is to rename columns for better feature handling
 
-## Write a function 'q01_rename_columns' that :
+## Write a function `q01_rename_columns` that :
     
     a)Reads CSV file and converts CSV data to dataframe.
     b)Skips first row.

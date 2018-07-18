@@ -5,7 +5,7 @@ Winning silver or bronze medals is a big achievement but winning gold is bigger.
 ### Using the above created dataframe subsets, in this task we will find out which country has had the best performance with respect to the ratio between gold medals won and total medals won.
 
 
-## Write a function 'q06_golden_winner()' that:
+## Write a function `q06_golden_winner()` that:
     
     a)Once again, takes the dataframe and the three above created lists(Top10Summer,Top10Winter, Top10) as parameters and subsets the dataframe based on the country names present in the list 
     b)creates a new list 'Gold_Ratio' that stores the ratio between gold medals won and total medals won for each country depending on the event

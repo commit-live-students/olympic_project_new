@@ -8,7 +8,7 @@ Write code for finding out the values at both the quantile range for the column 
 
 Countries whose total medal counts is above or below the above calculated values, are the countries with unusually(good or bad) performances.
 
-## Create a function 'q07_unusual_performances()' that:
+## Create a function `q07_unusual_performances()` that:
     
     a)takes the dataframe , lower percentile value, higher percentile value as parameters and returns two dataframes filtered based on the two percentile values
     
