@@ -6,7 +6,7 @@ Created on Mon Jul 16 15:59:37 2018
 """
 
 from unittest import TestCase
-from greyatomlib.olympics_project_new.q03_better_event.build import q03_better_event,q02_country_operations, q01_rename_columns
+from ..build import q03_better_event,q02_country_operations, q01_rename_columns
 from inspect import getfullargspec
 import pandas
 

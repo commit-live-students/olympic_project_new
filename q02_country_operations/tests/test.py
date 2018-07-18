@@ -14,7 +14,7 @@ Created on Mon Jul 16 13:34:30 2018
 
 
 from unittest import TestCase
-from greyatomlib.olympics_project_new.q02_country_operations.build import q02_country_operations, q01_rename_columns
+from ..build import q02_country_operations, q01_rename_columns
 from inspect import getfullargspec
 import pandas
 
