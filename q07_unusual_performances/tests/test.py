@@ -5,7 +5,7 @@ Created on Mon Jul 16 17:58:25 2018
 @author: nnair
 """
 from unittest import TestCase
-from greyatomlib.olympic_project_new.q07_unusual_performances.build import q07_unusual_performances, q02_country_operations, q01_rename_columns
+from greyatomlib.olympics_project_new.q07_unusual_performances.build import q07_unusual_performances, q02_country_operations, q01_rename_columns
 from inspect import getfullargspec
 
 path = "./data/olympics.csv"
