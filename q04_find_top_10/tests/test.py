@@ -6,7 +6,7 @@ Created on Mon Jul 16 16:22:23 2018
 """
 
 from unittest import TestCase
-from greyatomlib.olympics_project_new.q04_find_top_10.build import q04_find_top_10, q03_better_event,q02_country_operations, q01_rename_columns
+from greyatomlib.olympic_project_new.q04_find_top_10.build import q04_find_top_10, q03_better_event,q02_country_operations, q01_rename_columns
 from inspect import getfullargspec
 import pandas
 

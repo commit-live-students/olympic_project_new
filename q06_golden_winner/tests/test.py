@@ -6,7 +6,7 @@ Created on Mon Jul 16 17:27:31 2018
 """
 
 from unittest import TestCase
-from greyatomlib.olympics_project_new.q06_golden_winner.build import q06_golden_winner, q04_find_top_10, q03_better_event,q02_country_operations, q01_rename_columns
+from greyatomlib.olympic_project_new.q06_golden_winner.build import q06_golden_winner, q04_find_top_10, q03_better_event,q02_country_operations, q01_rename_columns
 from inspect import getfullargspec
 
 path = "./data/olympics.csv"

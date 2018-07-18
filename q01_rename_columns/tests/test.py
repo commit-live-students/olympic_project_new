@@ -6,7 +6,7 @@ Created on Mon Jul 16 13:34:30 2018
 """
 
 from unittest import TestCase
-from greyatomlib.olympics_project_new.q01_rename_columns.build import q01_rename_columns
+from greyatomlib.olympic_project_new.q01_rename_columns.build import q01_rename_columns
 from inspect import getfullargspec
 import pandas 
 
