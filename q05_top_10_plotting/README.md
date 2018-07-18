@@ -22,5 +22,7 @@ Parameters :
 Returns:
 There is no return parameter for the function. The plot should be similar to :
 Top_10 Summer plot: https://github.com/commit-live-students/olympic_project_new/blob/master/images/Summer.png
+
 Top_10 Winter plot: https://github.com/commit-live-students/olympic_project_new/blob/master/images/Winter.png
+
 Top_10 plot: https://github.com/commit-live-students/olympic_project_new/blob/master/images/Top_10.png
