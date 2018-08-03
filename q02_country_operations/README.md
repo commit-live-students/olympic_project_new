@@ -5,10 +5,9 @@ The second task is to make changes to Country column
 ## Write a function `q02_country_operations` that    
    
     a)Makes use of the previously created dataframe from q01_rename_columns.
-    b)Removes unnecessary characters from the column 'Country'.
-    c)Extracts country name from 'Country' and creates a new column called 'Country Name'.
-    d)Removes unnecessary spaces from the newly created column
-    e)Returns the updated dataframe
+    b)Extracts country name from 'Country' and creates a new column called 'Country Name'.
+    c)Removes unnecessary spaces from the newly created column
+    d)Returns the updated dataframe
     
 Parameters :
 
