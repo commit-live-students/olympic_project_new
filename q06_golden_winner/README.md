@@ -17,15 +17,15 @@ Parameters :
 | parameter | dtype          | Argument Type | default value | description                   |
 |-----------|----------------|---------------|---------------|-------------------------------|
 | variable1  |pandas.DataFrame| compulsory    |               | dataframe to be loaded        |
-| variable2  |list          | compulsory    |               | list that will help subset        |
-| variable3  |list          | compulsory    |               | list that will help subset        |
-| variable4  |list          | compulsory    |               | list that will help subset        |
+| variable2  |list          | compulsory    |               | list of top10 countries in Summer games        |
+| variable3  |list          | compulsory    |               | list of top10 countries in Winter games        |
+| variable4  |list          | compulsory    |               | list top10 contries in both games combined        |
 
 
 Returns:
 
 | returns  | dtype            | description                                |
 |----------|------------------|--------------------------------------------|
-| variable1 | string             | country name with the highest ratio                 |
-| variable2 | string             | country name with the highest ratio                 |
-| variable3 | string             | country name with the highest ratio                 |
+| variable1 | string             | country name with the highest ratio in Summer games                 |
+| variable2 | string             | country name with the highest ratio in Winter games                 |
+| variable3 | string             | country name with the highest ratio in both games combined                 |
