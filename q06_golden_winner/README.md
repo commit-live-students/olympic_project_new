@@ -26,6 +26,6 @@ Returns:
 
 | returns  | dtype            | description                                |
 |----------|------------------|--------------------------------------------|
-| variable1 | string             | country name with the highest ratio                 |
-| variable2 | string             | country name with the highest ratio                 |
-| variable3 | string             | country name with the highest ratio                 |
+| variable1 | string             | country name with the highest ratio in Summer games                 |
+| variable2 | string             | country name with the highest ratio in Winter games                 |
+| variable3 | string             | country name with the highest ratio in both games combined                 |
