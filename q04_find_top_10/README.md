@@ -15,6 +15,8 @@ So in this task we will try to find
     d)Finds the common elements between the three lists and stores it in a new list
     e)Returns the four above created lists
 
+**Note that the last row of the dataframe hsa totals, and therefore you will have to remove the last row before performing any operations**
+
 
 Parameters :
 
