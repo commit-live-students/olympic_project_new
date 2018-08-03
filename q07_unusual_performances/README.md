@@ -12,7 +12,7 @@ Countries whose total medal counts is above or below the above calculated values
     
     a)takes the dataframe , lower percentile value, higher percentile value as parameters and returns two dataframes filtered based on the two percentile values
     
-    
+**Note that you will need to remove the last row of the dataframe i.e. 'Total' before performing any operation**
 Parameters :
 
 | parameter | dtype          | Argument Type | default value | description                   |
