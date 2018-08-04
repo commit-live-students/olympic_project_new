@@ -10,7 +10,7 @@ OlympicsDF=q01_rename_columns(path)
 def q02_country_operations(df):
     df['Country Name'] = df['Country'][0:]
     df['Country Name'] = (df['Country Name'].str.split('(',1).str)[0].str.strip()
-    
+
     return df
 
 q02_country_operations(OlympicsDF)
