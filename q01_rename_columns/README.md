@@ -11,7 +11,7 @@ The first task is to rename columns for better feature handling
     
     a)Reads CSV file and converts CSV data to dataframe. the path for the file is `./data/olympics.csv'
     b)Skips first row.
-    c)Renames the first row of the newly created dataframe to "Country". 
+    c)Renames the first column of the newly created dataframe to "Country". 
     d)Renames column containing 01, 02 and 03 to the Gold(_Event), Silver(_Event) and Bronze(_Event)
     e)Renames Total, Total.1, Combined Total to Total_Summer, Total_Winter, Total respectively
     f)Returns the updated dataframe
