@@ -9,7 +9,7 @@ The first task is to rename columns for better feature handling
 
 ## Write a function `q01_rename_columns` that :
     
-    a)Reads CSV file and converts CSV data to dataframe.
+    a)Reads CSV file and converts CSV data to dataframe. the path for the file is `./data/olympics.csv'
     b)Skips first row.
     c)Renames the first row of the newly created dataframe to "Country". 
     d)Renames column containing 01, 02 and 03 to the Gold(_Event), Silver(_Event) and Bronze(_Event)
