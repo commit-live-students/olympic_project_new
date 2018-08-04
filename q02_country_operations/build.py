@@ -7,14 +7,12 @@ path = './data/olympics.csv'
 OlympicsDF=q01_rename_columns(path)    
 
 def q02_country_operations(df):
-    df['Country Name'] = df['Country'][:]
-    df['Country name'], df['Code'] = (df['Country Name'].str.split('(',1).str)
-    df.drop(df['Code'], axis = 0, inplace = True)
-    df[100,16] = 'Portugal'
+    df['Country name'] = (df['Country'].str.split('(',1).str)[0].str.strip()
+    #df.drop(labels=['Code'], axis=1, inplace=True)
+    #df.iloc[100,16] = 'Portugal'
     return df
 
-q02_country_operations(OlympicsDF).iloc[100,16]
-q02_country_operations(OlympicsDF)
+q02_country_operations(OlympicsDF).shape
 
 
 
