@@ -3,7 +3,7 @@
 import pandas as pd
 
 def q01_rename_columns(path):
-    df = pd.read_csv(path, skiprows=1)
+    df = pd.read_csv(path, skiprows=1, encoding='utf-8')
     df.rename(columns ={'Unnamed: 0':'Country', 
                         '01 !':'Gold_Summer',
                         '02 !':'Silver_Summer',
