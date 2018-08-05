@@ -6,9 +6,8 @@ path = './data/olympics.csv'
 OlympicsDF=q01_rename_columns(path)
 def q02_country_operations(dataframe):    
     OlympicsDF['Country Name'] = OlympicsDF['Country'].str.split('(').str[0]
-    OlympicsDF['Country Name'].str.encode('utf-8')
+    OlympicsDF['Country Name']
     return OlympicsDF
-
 
 a = q02_country_operations(OlympicsDF)
 
