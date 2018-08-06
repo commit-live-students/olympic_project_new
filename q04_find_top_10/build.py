@@ -9,7 +9,7 @@ OlympicsDF=q02_country_operations(OlympicsDF)
 OlympicsDF=q03_better_event(OlympicsDF)  
 
 def q04_find_top_10(df, Total_Summer, Total_Winter, Total):
-     #
+     #using only integer value by removing title i.e. len-1 
     df = df.iloc[:len(df)-1,:]
     Winter = list(df.sort_values('Total_Winter',ascending=False)['Country_Name'][0:10])
     Summer = list(df.sort_values('Total_Summer',ascending=False)['Country_Name'][0:10])
