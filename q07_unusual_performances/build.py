@@ -5,12 +5,17 @@ path = './data/olympics.csv'
 OlympicsDF=q01_rename_columns(path)    
 OlympicsDF=q02_country_operations(OlympicsDF)
 
-def q07_unusual_performances(df, low, high):
+low=0.05
+high=0.95
+quant_df = OlympicsDF['Total'].quantile([low, high])
+
+def q07_unusual_performances(df, low=0.000, high=0.000):
     df.drop(df.tail(1).index,inplace=True)
-    quant_df = OlympicsDF['Total'].quantile([low, high])
-    DFHigh = df.loc[df['Total']>=quant_df.loc[high],['Country_Name']]
-    DFLow = df.loc[df['Total']<=quant_df.loc[low], ['Country_Name']]
-    return DFLow, DFHigh
+    
+    DFHigh = df.loc[df['Total']>=high,['Country_Name']]
+    DFLow = df.loc[df['Total']<=low, ['Country_Name']]
+    return DFLow['Country_Name'].tolist(), DFHigh['Country_Name'].tolist()
+
 
 
 
