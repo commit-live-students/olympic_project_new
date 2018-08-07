@@ -8,7 +8,7 @@ OlympicsDF=q01_rename_columns(path)
 
 def q02_country_operations(OlympicsDF):
     df = (OlympicsDF['Country'].str.extract('([A-Z]\w{0,})', expand=True))
-    OlympicsDF['Country Name'] = df
+    OlympicsDF['Country_Name'] = df
     return OlympicsDF
 
 
