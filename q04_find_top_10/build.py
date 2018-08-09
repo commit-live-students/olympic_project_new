@@ -7,6 +7,7 @@ OlympicsDF=q02_country_operations(OlympicsDF)
 OlympicsDF=q03_better_event(OlympicsDF)    
 
 def q04_find_top_10(df, column1, column2, column3):
+    
     top_summer_rows = df.sort_values('Total_Summer', ascending=False)[1:].head(10)['Country_Name']
     top_winter_rows = df.sort_values('Total_Winter', ascending=False)[1:].head(10)['Country_Name']
     top_total_rows = df.sort_values('Total', ascending=False)[1:].head(10)['Country_Name']
