@@ -11,6 +11,7 @@ OlympicsDF=q02_country_operations(OlympicsDF)
 Top10Summer,Top10Winter, Top10, Common =q04_find_top_10(OlympicsDF,'Total_Summer', 'Total_Winter','Total')
 
 def q05_top_10_plotting(df,Top10Summer,Top10Winter, Top10):
+    
     summer_df = df.loc[df['Country_Name'].isin(Top10Summer), ['Country_Name', 'Total']]
     summer_df = summer_df.groupby('Country_Name').sum()
     
