@@ -8,7 +8,6 @@ OlympicsDF=q03_better_event(OlympicsDF)
 Top10Summer,Top10Winter, Top10, Common =q04_find_top_10(OlympicsDF,'Total_Summer', 'Total_Winter','Total')
 
 def q06_golden_winner(df, Top10Summer,Top10Winter, Top10):
-    
     summer_filtered_df = df.loc[df['Country_Name'].isin(Top10Summer), ['Country_Name', 'Gold_Summer','Total_Summer']]
     summer_filtered_df['Gold_Ratio'] = summer_filtered_df['Gold_Summer'] / summer_filtered_df['Total_Summer']
     max_filtered = summer_filtered_df['Gold_Ratio'].max()
