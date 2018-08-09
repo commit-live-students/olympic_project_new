@@ -11,6 +11,7 @@ def get_better_event(item):
     print(item)
 
 def q03_better_event(df):
+    
     df['BetterEvent'] = np.where(df['Total_Summer'] > df['Total_Winter'], 'Summer', 
                                 (np.where(df['Total_Summer'] == df['Total_Winter'], 'Both', 'Winter')))
     return df
