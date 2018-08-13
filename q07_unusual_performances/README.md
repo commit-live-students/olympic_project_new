@@ -26,8 +26,8 @@ Returns:
 
 | returns  | dtype            | description                                |
 |----------|------------------|--------------------------------------------|
-| variable1 | pandas.DataFrame             | Dataframe containing countries having total medal count lesser than the lower quantile value of the total medals                 |
-| variable2 | pandas.DataFrame              | Dataframe containing countries having total medal count greater than the upper quantile value of the total medals                            |
+| variable1 | pandas.Series             | Series containing countries having total medal count lesser than the lower quantile value of the total medals                 |
+| variable2 | pandas.Series              | Series containing countries having total medal count greater than the upper quantile value of the total medals                            |
     
     
     

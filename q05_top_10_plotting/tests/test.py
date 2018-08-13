@@ -20,6 +20,7 @@ q05_top_10_plotting(df, Top10Summer, Top10Winter, Top10)
 
 
 class TestRead_csv_data_to_df(TestCase):
+
     def test_read_csv_data_to_df_args(self):
         arg = getfullargspec(q05_top_10_plotting).args
         self.assertEqual(len(arg), 4, "Expected argument(s) %d, Given %d" % (4, len(arg))) 
