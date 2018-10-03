@@ -18,7 +18,7 @@ def q06_golden_winner(OlympicsDF,Top10Summer,Top10Winter,Top10):
     Gold_Ratio_Total=list(OOly['Gold_Total']/OOly['Total'])
     total_winner=OOly.iloc[np.argmax(Gold_Ratio_Total),16]
     return summer_winner, winter_winner, total_winner
-q06_golden_winner(OlympicsDF,Top10Summer,Top10Winter,Top10)
+
 
 
 
