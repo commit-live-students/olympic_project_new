@@ -5,14 +5,14 @@ path = './data/olympics.csv'
 import numpy as np
 OlympicsDF=q01_rename_columns(path)    
 OlympicsDF=q02_country_operations(OlympicsDF)
-def q07_unusual_performances(df=OlympicsDF,low=0.05,high=0.95):
-    df=df[df['Country']!='Totals']
+def q07_unusual_performances(df=OlympicsDF,high=0.95,low=0.05):
     q1=df['Total'].quantile(low)
     q2=df['Total'].quantile(high)
-    lowcons=df[df['Total']<=q1]['Country_Name']
-    highcons=df[df['Total']>=q2]['Country_Name']
+    df=df[df['Country']!='Totals']
+    lowcons=list(df[df['Total']<=q1]['Country_Name'])
+    highcons=list(df[df['Total']>q2]['Country_Name'])
     return lowcons,highcons
-q07_unusual_performances(df=OlympicsDF,low=0.05,high=0.95)
+
 
 
 
