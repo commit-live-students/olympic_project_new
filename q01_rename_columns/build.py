@@ -11,7 +11,7 @@ def q01_rename_columns(path):
     return df
     
 
-q01_rename_columns(path)
+
 
 
 
