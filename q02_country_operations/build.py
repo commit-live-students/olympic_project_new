@@ -9,8 +9,8 @@ import pandas as pd
 def q02_country_operations(OlympicsDF):
    
     
-    OlympicsDF['Country_name']=OlympicsDF['Country'].str.replace(' ', '')
-    
+    OlympicsDF['Country_Name']=OlympicsDF['Country'].str.replace(' ', '')
+    OlympicsDF.iloc[100,16].replace('\xa0(POR)','')
     return OlympicsDF
 
 
