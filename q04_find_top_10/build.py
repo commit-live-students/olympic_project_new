@@ -16,11 +16,8 @@ def q04_find_top_10(OlympicsDF, Total_Summer, Total_Winter, Total):
     return total_summer, total_winter, total, common
     
 Top10Summer,Top10Winter, Top10, Common =q04_find_top_10(OlympicsDF,'Total_Summer', 'Total_Winter','Total')
-Top10Summer
 Top10Winter
-Top10
-Common
-
+OlympicsDF.sort_values(by='Total_Winter', ascending=False)[['Total_Winter', 'Country_Name']].iloc[1:11]
 
 
 
