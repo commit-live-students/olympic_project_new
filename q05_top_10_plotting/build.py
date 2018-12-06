@@ -13,17 +13,17 @@ Top10Summer,Top10Winter, Top10, Common = q04_find_top_10(OlympicsDF,'Total_Summe
 
 def q05_top_10_plotting(Dataset,col1=Top10Summer,col2=Top10Winter,col3=Top10):
 
-    OlympicsDF[OlympicsDF['Country_Name'].isin(col1)].plot(x='Country_Name',y='Total_Summer',kind='bar')
+    Dataset[Dataset['Country_Name'].isin(col1)].plot(x='Country_Name',y='Total_Summer',kind='bar')
     plt.title('Top 10 Summer')
     plt.xlabel('Country Name')
     plt.ylabel('Total Medals')
 
-    OlympicsDF[OlympicsDF['Country_Name'].isin(col2)].plot(x='Country_Name',y='Total_Winter',kind='bar')
+    Dataset[Dataset['Country_Name'].isin(col2)].plot(x='Country_Name',y='Total_Winter',kind='bar')
     plt.title('Top 10 Winter')
     plt.xlabel('Country Name')
     plt.ylabel('Total Medals')
 
-    OlympicsDF[OlympicsDF['Country_Name'].isin(col3)].plot(x='Country_Name',y='Total',kind='bar')
+    Dataset[Dataset['Country_Name'].isin(col3)].plot(x='Country_Name',y='Total',kind='bar')
     plt.title('Top 10')
     plt.xlabel('Country Name')
     plt.ylabel('Total Medals')
